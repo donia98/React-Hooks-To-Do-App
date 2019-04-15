@@ -9,16 +9,51 @@
   border-radius: 4px;
   padding: 5px;
   max-width: 400px;
+  margin: 0 auto;
+  
 }
 
 .todo {
   background: #fff;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   padding: 3px 10px;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 6px;
   border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 30px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  width: 410px;
+  height: 30px;
+  margin: 5px auto;
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  text-indent: 15px;
+}
+
+button {
+  border: none;
+  /* background-color: #209cee; */
+  font-size: 14px;
+  color: #209cee;
+  margin-right: 5px;
+  text-align: center;
+  border-radius: 3px;
+  outline: none;
+}
+
+button:hover {
+    background-color: #209cee;
+    font-size: 14px;
+    color: #e8e8e8;
 }
